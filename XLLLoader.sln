@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XLLLoader", "XLLLoader.vcxproj", "{49088363-86AE-4138-B269-72E59711C01C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49088363-86AE-4138-B269-72E59711C01C}.Debug|x64.ActiveCfg = Debug|x64
+		{49088363-86AE-4138-B269-72E59711C01C}.Debug|x64.Build.0 = Debug|x64
+		{49088363-86AE-4138-B269-72E59711C01C}.Debug|x86.ActiveCfg = Debug|Win32
+		{49088363-86AE-4138-B269-72E59711C01C}.Debug|x86.Build.0 = Debug|Win32
+		{49088363-86AE-4138-B269-72E59711C01C}.Release|x64.ActiveCfg = Release|x64
+		{49088363-86AE-4138-B269-72E59711C01C}.Release|x64.Build.0 = Release|x64
+		{49088363-86AE-4138-B269-72E59711C01C}.Release|x86.ActiveCfg = Release|Win32
+		{49088363-86AE-4138-B269-72E59711C01C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98C12426-3AB2-4E88-BBE5-B883A6D3CBA8}
+	EndGlobalSection
+EndGlobal

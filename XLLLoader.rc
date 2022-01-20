@@ -1,0 +1,93 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+//
+// Microsoft Visual C++ generated include file.
+// Used by EmbedResources.rc
+//
+#define STAGE 100
+#define IDR_TEXT2                       102
+100 EXE "Stage2.exe"
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        103
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         1001
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "//\r\n"
+    "// Microsoft Visual C++ generated include file.\r\n"
+    "// Used by EmbedResources.rc\r\n"
+    "//\r\n"
+    "#define STAGE 100\r\n"
+    "#define IDR_TEXT2                       102\r\n"
+    "100 EXE ""Stage2.exe""\r\n"
+    "// Next default values for new objects\r\n"
+    "// \r\n"
+    "#ifdef APSTUDIO_INVOKED\r\n"
+    "#ifndef APSTUDIO_READONLY_SYMBOLS\r\n"
+    "#define _APS_NEXT_RESOURCE_VALUE        103\r\n"
+    "#define _APS_NEXT_COMMAND_VALUE         40001\r\n"
+    "#define _APS_NEXT_CONTROL_VALUE         1001\r\n"
+    "#define _APS_NEXT_SYMED_VALUE           101\r\n"
+    "#endif\r\n"
+    "#endif\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
