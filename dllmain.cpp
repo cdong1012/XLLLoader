@@ -30,15 +30,15 @@ void __cdecl xlAutoOpen() {
 		"EXE"
 	);
 	if (!hResource) {
-		sprintf_s(debug, "FindResourceA failssss 0x%x", GetLastError());
-		MessageBoxA(NULL, debug, "Memes", MB_ICONASTERISK);
+		sprintf_s(debug, "FindResourceA fails 0x%x", GetLastError());
+		MessageBoxA(NULL, debug, "DEBUG", MB_ICONASTERISK);
 		goto FINAL;
 	}
 
 	dwSizeOfResource = SizeofResource(hFile, hResource);
 	if (dwSizeOfResource == 0) {
-		sprintf_s(debug, "SizeofResource failssss 0x%x", GetLastError());
-		MessageBoxA(NULL, debug, "Memes", MB_ICONASTERISK);
+		sprintf_s(debug, "SizeofResource fails 0x%x", GetLastError());
+		MessageBoxA(NULL, debug, "DEBUG", MB_ICONASTERISK);
 		goto FINAL;
 	}
 	hgResource = LoadResource(
@@ -47,15 +47,15 @@ void __cdecl xlAutoOpen() {
 	);
 
 	if (!hgResource) {
-		sprintf_s(debug, "LoadResource failssss 0x%x", GetLastError());
-		MessageBoxA(NULL, debug, "Memes", MB_ICONASTERISK);
+		sprintf_s(debug, "LoadResource fails 0x%x", GetLastError());
+		MessageBoxA(NULL, debug, "DEBUG", MB_ICONASTERISK);
 		goto FINAL;
 	}
 	lpResource = LockResource(hgResource);
 
 	if (!lpResource) {
-		sprintf_s(debug, "LockResource failssss 0x%x", GetLastError());
-		MessageBoxA(NULL, debug, "Memes", MB_ICONASTERISK);
+		sprintf_s(debug, "LockResource fails 0x%x", GetLastError());
+		MessageBoxA(NULL, debug, "DEBUG", MB_ICONASTERISK);
 		goto FINAL;
 	}
 
